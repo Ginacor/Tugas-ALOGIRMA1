@@ -1,0 +1,15 @@
+#program untuk convert celcius ke fahrenheit 
+celcius = float(input("Celcius= "))
+fahrenheit = celcius * 1.8 + 32
+
+print(f"suhu {celcius} C sama dengan {fahrenheit} F")
+
+# Memasukkan Inputan Angka
+angka1 = input('Tulis angka pertama: ')
+angka2 = input('Tulis angka kedua: ')
+
+# Mengkonversi Angka lalu Menjumlahkannya
+sum = int(angka1) + int(angka2)
+
+# Menampilkam Hasil Penjumlahan
+print('Hasil Penjumlahan {0} dan {1} adalah {2}'.format(angka1,angka2,sum))
